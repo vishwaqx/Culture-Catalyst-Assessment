@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="items">
+            <div id="input">
+                <label for="inputbox">Name:</label><br>
+                <input id="inputbox" placeholder="Enter your name" type="text"><br>
+                <label for="dob">DOB:</label><br>
+                <input id="dob" type="date"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="4" cols="40"></textarea><br>
+                <button onclick="submit()" type="submit">Submit</button>
+            </div>
+            <div id="buttons">
+                <button id="stylesbtn" onclick="changestyle(0)">Change Style</button>
+            </div>
+            <div>
+                <table id="table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Dob</th>
+                            <th>Message</th>
+                        </tr>
+                </table>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
